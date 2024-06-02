@@ -1,0 +1,331 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+/*:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa
+   background-color: #E8E8E8;
+   --cor-de-link: #000;
+}*/
+
+body {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:#E8E8E8;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #242424;
+}
+strong {
+    color:#4C509C;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*.all{ 
+    margin: 10%;
+}
+*/
+
+
+.menu__title{ 
+    color: #4C509C;
+    padding: 0 10% 0 30px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    padding: 0 3% 0 0%;
+}
+
+.menu__list__item__contato{ 
+    display: flex;
+
+}
+
+.menu{ 
+    top: 5%;
+}
+
+.title__div{ 
+    margin: 10%;
+}
+
+.title__bio{ 
+    font-size: 45px;
+}
+
+/*.about { 
+    margin: 10%;
+}
+*/
+.about__title{ 
+    font-size: 45px;
+}
+
+.about__paragraph{
+    align-items: center;
+    width: 1440px;
+    height: 60px;
+    padding: 20px;
+    gap: 15px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__container{
+    margin: 0px;
+    background-color: #CED2F2;
+    width: 1550px;
+    border-radius: 16px;
+    height: 500px;
+    padding: 10px 200px;
+}
+
+.title__network{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.skills__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.skills__line ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills__box{ 
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.hobbies__line ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies__box{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-gamepad{
+    font-size: 24px;
+    color: rgb(64, 99, 255);
+}
+
+.fa-film{
+    font-size: 24px;
+    color: rgb(64, 99, 255);
+}
+
+.formcontato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CED2F2;
+    padding: 30px;
+}
+
+.formcontato__contacto {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+}
+
+.formcontato--esquerda {
+    margin-right: 200px; /* Adicionando uma margem para separar a imagem do texto */
+}
+
+.formcontato__text {
+    flex: 1;
+}
+
+.formcontato__img {
+    width: 300px;
+    height: auto;
+}
+
+.formcontato__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.formcontato__subtext {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formcontato__botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.formcontato__botao:hover {
+    background-color: #0056b3;
+}
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
+
+Mas o que é o BEM?
+
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
+
+Link da documentação oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sessão Menu*/
+
+section.menu{
+
+}
+
+/*Sessão Title*/
+
+section.title{
+
+}
+
+/*Sessão About*/
+
+section.about{
+
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+
+}
+
+/* experiência*/
+
+section.experience{
+
+}
+
+/*Contato*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: 1950px;
+    text-align: center;
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
